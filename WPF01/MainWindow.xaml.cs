@@ -26,7 +26,7 @@ namespace WPF01
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Title = "Clicked";
+            this.Title = "Alterado nome do form";
         }
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
