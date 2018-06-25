@@ -30,7 +30,9 @@ namespace WPF01
         }
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            lblValor.Content = sldValor.Value;
+            //lblValor.Content = sldValor.Value;
+            lblValor.Content = sldValor.Value + " selecionados";
+
         }
     }
 }
